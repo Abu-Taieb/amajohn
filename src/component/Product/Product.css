@@ -8,3 +8,11 @@
     width: 100%;
     border-radius: 20px;
 }
+.addToCart {
+    background: orangered;
+    width: 100%;
+    border: none;
+}
+.addToCart:hover{
+    background-color: orange;
+}
