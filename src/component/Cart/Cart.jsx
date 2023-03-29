@@ -22,7 +22,7 @@ const Cart = ({cart}) => {
                         <p>Total Price</p>
                         <p>Total Shipping</p>
                         <p>Tax</p>
-                        <p>Grand Total</p>
+                        <p style={{fontWeight:'bold'}}>Grand Total</p>
                     </div>
                     <div className="cart-clone">
                         <p>:</p>
@@ -36,7 +36,7 @@ const Cart = ({cart}) => {
                         <p>$ {total.toFixed(2)}</p>
                         <p>$ {shipping.toFixed(2)}</p>
                         <p>$ {tax.toFixed(2)}</p>
-                        <p>$ {grandTotal.toFixed(2)}</p>
+                        <p style={{fontWeight:'bold'}}>$ {grandTotal.toFixed(2)}</p>
                     </div>
                 </div>
             </div>
