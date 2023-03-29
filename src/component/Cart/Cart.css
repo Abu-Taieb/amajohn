@@ -1,0 +1,27 @@
+.cart-container{
+    border: 1px solid #EBEEEF;
+    border-radius: 20px;
+    margin: 20px 0 0 20px;
+    padding: 20px;
+    
+}
+.cart-container h4{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.cart-inner-container{
+    background-color: lightgreen;
+    border-radius: 20px;
+    padding: 20px;
+}
+.cart{
+    display: flex;
+}
+.cart-clone{
+    margin: 0 10px;
+}
+.horizontal{
+    border: 1px solid black;
+    border-style:dotted
+}

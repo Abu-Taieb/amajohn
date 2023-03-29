@@ -13,7 +13,6 @@
 .addToCart {
     background: orangered;
     width: 100%;
-    box-sizing: border-box;
     border: none;
 }
 .addToCart:hover{
