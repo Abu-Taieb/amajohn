@@ -2,12 +2,14 @@ import React from 'react';
 import './Cart.css';
 
 const Cart = ({cart}) => {
-
     let total = 0;
     let shipping = 0;
+    let quantity = 0;
     for (const product of cart){
-        total = total + product.price;
+        product.quantity = product.quantity || 1;
+        total = total + product.price * product.quantity;
         shipping = shipping + product.shipping;
+        quantity = quantity + product.quantity;
     }
     const tax = total * 7 / 100;
     const grandTotal = tax + total + shipping;
@@ -32,7 +34,7 @@ const Cart = ({cart}) => {
                         <p>:</p>
                     </div>
                     <div className="">
-                        <p>{cart.length}</p>
+                        <p>  {quantity}</p>
                         <p>$ {total.toFixed(2)}</p>
                         <p>$ {shipping.toFixed(2)}</p>
                         <p>$ {tax.toFixed(2)}</p>
