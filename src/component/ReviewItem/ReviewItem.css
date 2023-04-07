@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.reviewItem-leftSide{
+.reviewItem-leftSide ,.proceed-checkout{
     display: flex;
     justify-content: space-between;
     align-items: center;

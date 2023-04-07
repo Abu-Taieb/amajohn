@@ -14,6 +14,7 @@
     background: orangered;
     width: 100%;
     border: none;
+    bottom: 0;
 }
 .addToCart:hover{
     background-color: orange;
